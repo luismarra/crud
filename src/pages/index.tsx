@@ -30,7 +30,7 @@ export default function Home() {
             <div className="flex justify-end">
               <Botao cor="green" className="mb-4"
                 onClick={novoCliente}>
-                Novo Cliente
+                Novo
               </Botao>
             </div>
             <Tabela clientes={clientes}
